@@ -2,20 +2,151 @@
 	box-sizing: border-box;
 }
 
+html {
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+    background-color: #CDB7B5;
 
-div {
-	height: 100px;
-	width: 200px;
-	border: 2px solid red;
-	background-color: lime;
-	margin: 10px 10px 10px 10px;
-	padding: 10px 5px 10px 5px;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+    background-color: #CDB7B5;
 }
 
-.divA{
-	background-color: orange;
+
+
+
+.logoParent
+{
+	background-color: #A9A9A9;
+	position: absolute;
+	float: left;
+	top: 0%;
+	left: 0%;
+	height: 10%;
+	width: 200%;
+	margin: 0 auto;
+	resize: both;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
 }
 
-.divB{
-	background-color: red;
+.logo
+{	
+	position: relative;
+	float: left;
+	color:#FFFFFF;
+	top: 15%;
+	left: 1%;
+	height: 25%;
+	width: 25%;
+	font-family: 'PT Sans Caption','serif';
+	font-size: 2vmax;
+	margin: 0 auto;
 }
+
+.tel
+{
+	position: relative;
+	float: left;
+	top: -50%;
+	left: 0%;
+	height: 14%;
+	width: 200%;
+	font-family: 'PT Sans Caption','serif';
+	font-size: 12px;
+}
+
+
+/*.jobList
+{
+	position: relative;
+	background-color: #A9A9A9;
+	display: block;
+	padding: 0.2% 0.2% 0.2% 0.2%;
+	color:#FFFFFF;
+	float: left;
+	left: 2%;	
+	height: 10%;
+	width: 12%;
+	font-family: 'PT Sans Caption','serif';
+	font-size: 15px;
+	font-size: 1vmax;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+
+}*/
+
+./*jobTypes
+{
+	position: relative;
+	width: 95%;
+	left: 3%;
+	margin: 0 auto;	
+	font-size: 15px;
+	font-size: 1.5vmax;
+	font-family: 'PT Sans Caption','serif';
+	color:#FFFFFF;
+	-webkit-background-clip: padding-box; 
+	-moz-background-clip:    padding; 
+	background-clip:         padding-box;
+}*/
+
+
+
+
+.slideshow { 
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.slideshow > div { 
+    position: absolute; 
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    top: 15%; 
+    left: 30%; 
+    right: 30%; 
+    bottom: 20%;
+    display:none;
+ 
+}
+
+.slideshow img
+{
+	position: relative;
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	bottom: 20%; 
+	padding bottom: 5%;
+	margin-right: auto;
+    margin-left: auto;
+    -webkit-box-shadow: 0 8px 2px -3px black;
+	-moz-box-shadow: 0 8px 2px -3px black;
+	box-shadow: 0 8px -2px -3px black;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
