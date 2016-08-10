@@ -1,0 +1,64 @@
+body{
+	background-color: #2f4f4f;
+}
+
+.mainHeader
+{
+	color: #008CBA; /* Blue */	
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+	position: fixed;
+  	top: 40%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.getStartedHeader
+{
+	color: #008CBA; /* Blue */	
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+	position: fixed;
+  	top: 45%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+button[id ="newBoardBtn"]
+{
+	border-radius: 25px;
+	color: black;	
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+	background-color:  #008CBA; /* Blue */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed;
+  	top: 53%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+button[id ="existingBoardButton"]
+{
+	border-radius: 25px;
+	color: black;	
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+	background-color:  #008CBA; /* Blue */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed;
+  	top: 60%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
