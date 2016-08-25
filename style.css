@@ -1,0 +1,120 @@
+/*   
+Theme Name: Andy Brown
+Theme URI: http://andybrowndesigns.co.uk
+Description: WordPress v3.7
+Author: Zena Walczynska
+Author URI: http://zincdesigns.co.uk
+Version: 1
+*/
+
+* { margin: 0; padding: 0; }
+html { background: #242625; }
+body { font: 11px/1.4 Arial, sans-serif; color: white; }
+
+article, aside, figure, footer, header, nav, section { display: block; }
+
+#page-wrap { width: 900px; margin: 0px auto 50px; background: white; }
+
+header { position: relative; padding: 50px 100px 50px 100px; }
+
+header #twitter { position: relative; background: url(images/twitter.jpg) no-repeat; float:right; bottom:44px; width: 39px; height: 40px;}
+header #facebook { position: relative; background: url(images/facebook.jpg) no-repeat; float:right; right:10px; bottom: 44px; width: 39px; height: 40px;}
+header #linkedin { position: relative; background: url(images/linkedin.jpg) no-repeat; float:right; right:20px; bottom: 44px; width: 39px; height: 40px;}
+
+header p { color: #242625; letter-spacing: 1px; }
+	
+h1 { 
+	font: 33px Georgia, Serif; 
+	color: #a7a9ac; 
+}
+
+h2 { 
+	font: 19px Georgia, Serif; 
+	color: #a7a9ac;
+	position: relative;
+	padding: 0 0 0 0; 
+	width: 350px;
+	list-style: none;
+}
+
+#blockquote { 
+	background: url(images/andy-brown-graphic.jpg) no-repeat; 
+	width: 710px; 
+	height: 210px;
+	margin: 50px 100px 50px 100px;
+}
+
+#blockquote-2 { 
+	background: url(images/khushi-quote.jpg) no-repeat; 
+	width: 700px; 
+	height: 210px;
+	margin: 50px 100px 50px 100px;
+}
+
+#main-content {  
+	width: 700px; 
+	padding: 50px 100px 70px 100px;
+	background-color: #434445;
+}
+
+p {
+	color: white;
+	letter-spacing: 1px; 
+}
+
+ul {
+	position: relative;
+	font: 19px Georgia, Serif; 
+	left: 100px; 
+	color: #a7a9ac;
+	width: 700px;
+	list-style: none;
+	border-bottom: 1px solid #a7a9ac;
+}
+
+ul a {
+	position: relative;
+	font: Georgia, Serif;
+	left: -38px; 
+	width:4em;
+	padding-right: 1em;
+	text-decoration:none;
+	color:#a7a9ac;
+	background-color:none;
+}
+
+ul a:link {
+	text-decoration:none;
+	background-color:none;
+	color:#a7a9ac;
+}
+
+ul a:hover {
+	background-color:none;
+	text-decoration:none;
+	color:#242625;
+}
+
+li {
+	display:inline;
+}
+
+a:link {
+	background-color:none;
+	text-decoration:none;
+	color:#a7a9ac;
+}
+
+a:hover {
+	background-color:none;
+	text-decoration:underline;
+	color:#242625;
+}
+
+#footer-line {
+	position: relative;
+	padding-top: 30px;
+	bottom: 10px;
+	width: 700px;
+	border-bottom: 1px solid #a7a9ac;
+}

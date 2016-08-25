@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box;
+}
+
+.logoParent
+{
+	background-color: #009688;
+	position: fixed;
+	float: left;
+	top: 0%;
+	left: 0%;
+	height: 10%;
+	width: 200%;
+	margin: 0 auto;
+	resize: both;
+}
+
+.logo
+{	
+	position: relative;
+	float: left;
+	color:#FFFFFF;
+	top: 15%;
+	left: 1%;
+	height: 25%;
+	width: 25%;
+	font-family: 'Cinzel','serif';
+	font-size: 35px;
+	margin: 0 auto;
+	resize: both;
+}
+
+.tel
+{
+	position: relative;
+	float: left;
+	top: -50%;
+	left: 0%;
+	height: 14%;
+	width: 200%;
+	font-family: 'Cinzel','serif';
+	font-size: 12px;
+}
+
+.main
+{
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 10%;
+	left: 0%;
+	height: 90%;
+	width: 100%;
+
+}
+
+.container
+{
+	background-color: #009688;
+	position: relative;
+	top: 5%;
+	width: 60%;
+	margin: 0% 22%; 
+	padding: 20%;
+	resize: auto;
+	border-radius: 20px;
+	/* Prevent background color leak outs */
+	-webkit-background-clip: padding-box; 
+	-moz-background-clip:    padding; 
+	background-clip:         padding-box;
+	
+
+}
+
+
+.jobList
+{
+	position: relative;
+	background-color: #009688;
+	display: block;
+	padding: 0.5%;
+	color:#FFFFFF;
+	float: left;
+	top: 5%;
+	left: 2%;
+	height: 45%;
+	width: 15%;
+	font-family: 'Cinzel','serif';
+	font-size: 18px;
+	resize: auto ;
+	border-radius: 20px;
+	-webkit-background-clip: padding-box; 
+	-moz-background-clip:    padding; 
+	background-clip:         padding-box;
+
+}
+
+.links
+{
+	position: relative;
+	background-color: #009688;
+	display: block;
+	padding: 0.5%;
+	color:#FFFFFF;
+	float: right;
+	top: 5%;
+	left: 2%;
+	height: 45%;
+	width: 15%;
+	font-family: 'Cinzel','serif';
+	font-size: 18px;
+	resize: auto ;
+	border-radius: 20px;
+	-webkit-background-clip: padding-box; 
+	-moz-background-clip:    padding; 
+	background-clip:         padding-box;
+}
+
+
+
+
+
+
+
